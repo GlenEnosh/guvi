@@ -1,0 +1,17 @@
+import java.util.*;
+public class glen
+{
+public static void main()
+{
+Scanner sc = new Scanner(System.in);
+int a;
+System.out.println("Enter a number");
+a=sc.nextInt();
+if(a==0)
+System.out.println("Zero");
+else if(a<0)
+System.out.println("Negative");
+else if(a>0)
+System.out.println("Positive");
+}
+}
